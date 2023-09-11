@@ -101,7 +101,7 @@ class_report_test = classification_report(y_val, y_val_pred_binary)
 #obtener la matriz de confusión
 list_cm.append(confusion_matrix(y_val, y_val_pred_binary))
 #mostrar el informe de clasificación
-print("Informe de Clasificación para el conjunto de prueba:")
+print("Informe de Clasificación para el conjunto de validacion:")
 print(class_report_test)
 
 # Creamos una figura con 2 subplots
